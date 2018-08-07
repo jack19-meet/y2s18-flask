@@ -1,1 +1,5 @@
 /* Put your CSS Styling here! */
+body {
+    color: rgb(199, 4, 4);
+    background-color: aqua;
+}
