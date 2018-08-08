@@ -6,6 +6,15 @@
         </head>
         <body>
             <h1> SWIMMING!</h1>
-            <p>idk what to write about</p>
+            {% if like_same_sport==False %}
+                <p>swimming is one of the most important sports , because it trains almost all of the muscles in the body</p>
+            {% else %}
+              <h2>top golden medals</h2>
+                <ul>
+                    {% for i in player_list %}
+                    <li>{{i}}</li>
+                    {% endfor %}
+                 </ul>
+                 {% endif %}
         </body>
     </html>
